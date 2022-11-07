@@ -1,15 +1,17 @@
 import React from 'react'
 import { useContext } from 'react'
+import AuthContext from './AuthContext';
 
 const Replay = () => {
-    const auth = useContext(AudioContext);
+    const auth = useContext(AuthContext);
   return (
     <div>
-        {auth?.status ?
-         <h1>Welcome </h1> :
-         <h1>Not Authorized</h1>
-        }
-    </div>
+    {auth.status ?
+        <p>Yes you are</p>
+        :
+        <p>Nopes</p>
+    }
+</div>
   )
 }
 

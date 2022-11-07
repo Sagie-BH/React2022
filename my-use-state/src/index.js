@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AdvEffects from './AdvEffects/AdvEffects';
+import Example from './Example';
 import './index.css';
-// import ReactEffects from './ReactEffects';
+import User from './User';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <ReactEffects/> */}
-    <AdvEffects/>
+    <Example/>
+    {/* <User/> */}
   </React.StrictMode>
 );
-
 

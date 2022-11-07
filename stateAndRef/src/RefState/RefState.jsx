@@ -98,5 +98,6 @@ export default RefState;
 const Age = ({age}) => {
     return (<>
       <h3> Age : {age}</h3>
-    </>)
+    </>
+    )
 }

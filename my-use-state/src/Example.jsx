@@ -20,6 +20,7 @@ const Example = () => {
     //   setNum(num + 1);
     }, 2000);
   };
+
   return (
     <div>
       <h1 style={{textAlign: 'center'}}>{num}</h1>

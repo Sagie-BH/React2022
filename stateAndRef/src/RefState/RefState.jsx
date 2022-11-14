@@ -67,7 +67,7 @@ const RefState = ({ age, city }) => {
 
   return (
     <>
-      <h1 ref={}> State & Ref</h1>
+      {/* <h1 ref={}> State & Ref</h1>     Line - 20*/}
       <h2> {name}</h2>
       <h2> City: {city}</h2>
       <h2> {value}</h2>

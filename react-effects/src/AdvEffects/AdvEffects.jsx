@@ -3,13 +3,25 @@ import { useState } from 'react';
 
 const AdvEffects = () => {
   const [number, setNumber] = useState(0);
-  const [name, setName] = useState("");
+  const [user, setUser] = useState("");
+  const [grade, setGrade] = useState(0);
 
   // Wrong
   // useEffect(() => {
   //   console.count("useEffect runs!");
   //   document.title = `You Clicked ${number} Times`;
   // },[]);
+
+  useEffect(() => {
+    /// Working - getting user
+    setUser()
+  },[]);
+
+  useEffect(() => {
+    /// Working - getting user grade
+    setGrade()
+  },[user, number]);
+
 
   // Correct
   useEffect(() => {

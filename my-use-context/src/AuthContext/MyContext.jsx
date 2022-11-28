@@ -1,5 +1,4 @@
 import React from "react"
-import { useEffect } from "react";
 import Auth from "./Auth";
 import ColorContext from "./ColorContext";
 import { MyAuthContext } from "./MyAuthContext";

@@ -27,10 +27,8 @@ const AppUseCallback = () => {
 
  const params = useMemo(() => ( { color } ), [color]);
 
-
 const onClick = useCallback(() => {
     // long Process 
-
 }, []);
 
   return (

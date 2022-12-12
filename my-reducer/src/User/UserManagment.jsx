@@ -27,8 +27,7 @@ const UserManagment = () => {
       { state.users.map((userData) => (
         <li
           key={userData.id}
-          onClick={() => dispatch({ type: "REMOVE_USER",
-           id: userData.id })}
+          onClick={() => dispatch({ type: "REMOVE_USER", id: userData.id })}
         >
           {userData.name}
         </li>
